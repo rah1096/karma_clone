@@ -8,13 +8,16 @@ html {
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
-    padding: 0px 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top-navigation .links {
@@ -113,7 +116,7 @@ section .button:hover {
     background-color: #ff4500;
 }
 
-section .button h3 {
+.middle .button h3 {
     font-size: 1em;
     text-align: center;
     color: white;
@@ -121,3 +124,81 @@ section .button h3 {
     font-weight: 400;
 }
 
+section.content {
+    height: 30em;
+    margin-top: 120px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content h2 {
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    font-size: 3em;
+    text-align: center;
+}
+
+.content .igroup {
+    height: 16em;
+    width: 16em;
+    display: inline-block;
+    margin: 1em 2em;
+}
+
+.content .icon {
+    height: 8em;
+    width: 8em;
+    margin: 2em auto;
+}
+
+.content h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+footer.content {
+    height: 20em;
+    padding-top: 0em;
+    border-top: 1px solid lightgray;
+}
+
+footer.content h4{
+    text-align: center;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
+footer.content div {
+    margin: 0 27em;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+footer li {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em;
+    border: 1px solid #55acee;
+    border-radius: 1.25em;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+footer li i {
+    margin-top: 30%;
+    text-align: center;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
+footer h5 {
+    text-align:  center;
+    font-weight: 300;
+}
